@@ -1,7 +1,7 @@
 name: 'Use kubectl in DOKS'
 description: 'Use kubectl inside a DOKS'
 inputs:
-  command:
+  kubectl:
     description: 'Kubectl command to execute'
     required: true
   cluster:
